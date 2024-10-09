@@ -11,7 +11,6 @@ public class MobileApp implements WeatherObserver{
 
     }
     private void display(){
-        System.out.println("|MOBILE_APP| Temperatura: " + temperature
-                + " Humedad: " + humidity + " Presión: " + pressure + ".");
+        System.out.println("|MOBILE_APP| Temperatura: " + temperature + ".");
     }
 }

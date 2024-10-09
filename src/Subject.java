@@ -10,6 +10,9 @@ public class Subject {
     public void addObserver(WeatherObserver observer){
         observers.add(observer);
     }
+    public void removeAllObserver(){
+        observers.clear();
+    }
     public void removeObserver(WeatherObserver observer){
         observers.remove(observer);
     }
